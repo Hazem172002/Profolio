@@ -28,7 +28,7 @@ const Header = () => {
       <button className='py-2 px-10 hover:bg-[var(--blue-bg)]  bg-[var(--blue)] transition duration-300' onClick={()=> window.scroll({top:4238})}> Hire Me</button>
       <button className='py-2  px-5 hover:bg-[var(--blue-bg)] bg-[var(--blue)] transition duration-300'><a href={'https://drive.google.com/file/d/1VuImuntXVA4qH_WwqExFTnG3MsMgEvwC/view?usp=sharing'}>Download CV</a></button>
     </div> 
-    <div className='mt-11 flex gap-3 cursor-pointer relative'>
+    <div className='mt-11 grid  gap-3 grid-flow-col cursor-pointer relative'>
 <a href={'https://www.facebook.com/people/Hazem-Gamal/100007871233637/?mibextid=ZbWKwL'}>
 <BsFacebook  size='3rem'  className='hover:bg-gray-700 bg-[var(--blue)] transition duration-300  p-1 rounded-full'/>
 
