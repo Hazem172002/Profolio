@@ -5,7 +5,7 @@ import {AiFillLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='items-center justify-center mx-auto mt-10 pb-10 text-center'>
-          <div className='flex gap-2 cursor-pointer items-center justify-center mx-auto'>
+          <div className='grid  grid-flow-col cursor-pointer items-center justify-center mx-auto'>
     <BsFacebook  size='2.5rem' color='gray' className='hover:bg-[var(--blue)] p-1 rounded-md'/>
     <AiFillGithub size='2.5rem' color='gray' className='hover:bg-[var(--blue)] p-1 rounded-md'/>
     <AiFillLinkedin size="2.5rem" color='gray' className='hover:bg-[var(--blue)] p-1 rounded-md'/>
