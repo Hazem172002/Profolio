@@ -13,10 +13,10 @@ import Contact from '../components/Contact'
 
 const Home = () => {
   return (
-    <div className='bg-[var(--main)] h-full relative w-full'>
+    <div className='bg-[var(--main)] h-full relative w-full overflow-hidden'>
         <Navbar />
         <Header />
-        <About />
+     <About />
         <Skills />
         <Education />
         <Exprience />

@@ -13,7 +13,7 @@ const Education = () => {
      
         <div className='flex flex-col md:flex-row w-[90%] shadow-2xl md:w-[80%] mx-auto rounded-md justify-center text-[var(--white)]'>
             
-            <div className='bg-[var(--blue)] p-5  flex flex-col rounded-sm  text-center' data-aos="fade-right">
+            <div className='bg-[var(--blue)]  p-5 relative flex flex-col rounded-sm  text-center' data-aos="fade-right">
                 <div>
                 <h1 className='pt-10 mb-5 '>2020 - 2024</h1>
                 <h1 className='text-2xl'>Faculty Of Computer Science</h1>
@@ -21,7 +21,7 @@ const Education = () => {
                 <h1>Under Graduate(level three)</h1>
                 </div>
             </div>
-            <div className='bg-white p-5 rounded-sm text-gray-700 grow text-left '  data-aos="fade-left">
+            <div className='bg-white p-5 rounded-sm relative text-gray-700 grow text-left '  data-aos="fade-left">
                 <h1 className='md:text-3xl text-2xl mt-3'>Faculty Of Computer Science</h1>
                 <h1 className='mb-3 md:text-xl font-bold text-gray-500'>NEW CAIRO ACADEMY, CAIRO, EGYPT</h1>
                 <div className='text-xl border-b pb-4 text-gray-500'>Subjects that was taught in university</div>

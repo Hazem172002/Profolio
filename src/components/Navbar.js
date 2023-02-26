@@ -18,7 +18,7 @@ console.log(window.scrollY)
     })
   return (
     <div className={`${isActive? 'bg-[var(--blue)]' :'bg-none'} text-[var(--white)] duration-700 flex md:items-center justify-between md:justify-around  pt-2 w-full  fixed z-10 `}>
-        <h2 className=' cursor-pointer text-bold text-2xl ml-2 md:m-0'>Hi,Me</h2>
+        <h2 className=' cursor-pointer text-bold text-2xl ml-2 md:m-0'>Hi,HAZEM</h2>
         <div className='hidden md:flex justify-between items-center'>
             <ul className='flex  gap-10 font-bold items-center'>
                 <li className='cursor-pointer p-3 rounded-md hover:bg-gray-800 transition duration-300' onClick={()=> window.scroll({top:450})}>About</li>
