@@ -16,7 +16,7 @@ code {
 }
 
 :root{
-  --main:#dfdfc6;
+  --main:(239, 239, 240);
   --secound:#003333;
   --yellow:	#DAA520;
  --blue: rgba(8, 14, 44);

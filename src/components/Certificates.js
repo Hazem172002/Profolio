@@ -9,7 +9,7 @@ const Certificates = () => {
        })
   return (
     <div className='mt-20 text-center'>
-        <h1 className='my-10 text-3xl font-bold'>Attendances and Certificates</h1>
+        <h1 className='my-10 md:text-3xl text-2xl font-bold'>Attendances and Certificates</h1>
         <div className='md:w-[80%] w-[90%] rounded-sm shadow-2xl bg-white justify-center mx-auto items-center ' data-aos="zoom-in">
         <img src={certificate} className='md:w-[70%] w-[80%]  py-20 justify-center mx-auto'/>
         </div>
