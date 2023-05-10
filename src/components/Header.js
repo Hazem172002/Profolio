@@ -26,7 +26,7 @@ const Header = () => {
     <h1 className='text-2xl md:text-3xl' data-aos="fade-left">Full Stack Delveloper</h1>
     <div className='flex gap-3 mt-2 relative'> 
       <button className='py-2 px-10 hover:bg-[var(--blue-bg)]  bg-[var(--blue)] transition duration-300' onClick={()=> window.scroll({top:4238})}> Hire Me</button>
-      <button className='py-2  px-5 hover:bg-[var(--blue-bg)] bg-[var(--blue)] transition duration-300'><a href={'https://drive.google.com/file/d/1VuImuntXVA4qH_WwqExFTnG3MsMgEvwC/view?usp=sharing'}>Download CV</a></button>
+      <button className='py-2  px-5 hover:bg-[var(--blue-bg)] bg-[var(--blue)] transition duration-300'><a href={'https://docs.google.com/document/d/1hA8Rla4KUyzIOMdExPfmBsWwA2LQqIZf/edit?usp=sharing&ouid=117641079580489933347&rtpof=true&sd=true'}>Download CV</a></button>
     </div> 
     <div className='mt-11 grid  gap-3 grid-flow-col cursor-pointer relative'>
 <a href={'https://www.facebook.com/people/Hazem-Gamal/100007871233637/?mibextid=ZbWKwL'}>
